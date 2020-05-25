@@ -15,8 +15,6 @@ This repository contains code to the section(4) which closely simulate those run
 
 Please use Keras==2.2.4 with TensorFlow==1.15.0 backend, or the `K.batch_dot` function may not work correctly.
 
-This code has been compiled on `Colab Notebook` and thus has **Callbacks files** accordingly to save the model, weights and results. If you don't want to save these just comment out the lines corresponding to `ModelCheckpoint` and `CSVLogger`
-
 ## Dataset
 
 Download the training and test dataset from the link given below:
@@ -26,6 +24,9 @@ http://www.cs.toronto.edu/~tijmen/affNIST/
 ```
 
 ## Usage
+
+This code has been compiled on `Colab Notebook` and thus has **Callbacks files** accordingly to save the model, weights and results. If you don't want to save these just comment out the lines corresponding to `ModelCheckpoint` and `CSVLogger`
+
 
 **Step 1. Clone this repository to local.**
 ```
@@ -39,7 +40,7 @@ pip install keras==2.2.4
 ```
 
 **Step 3.
-Train a CapsNet on MNIST**  
+**  
 
 To access `idx3-ubyte` file as numpy array:
 ```
