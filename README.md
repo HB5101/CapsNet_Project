@@ -12,7 +12,7 @@ This project uses the capsule networks for identifying any given digit and the r
 2. We only experimented routing iteration 2 and 3 in our code but paper did on 2,3,5,7 and 10
 3.  We use 0.0005xMSE as the reconstruction loss as 0.0005 is the coefficient for the loss. But decoder loss is calculated only as MSE.
 
-## Warnning
+## Warning
 
 Please use Keras==2.2.4 with TensorFlow==1.15.0 backend, or the `K.batch_dot` function may not work correctly.
 
