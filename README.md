@@ -4,7 +4,6 @@ A Keras implementation of CapsNet in the paper:
 [Sara Sabour, Nicholas Frosst, Geoffrey E Hinton. Dynamic Routing Between Capsules. NIPS 2017](https://arxiv.org/abs/1710.09829) 
 
 This repository contains code to the section(4) which closely simulate those run by Geoffrey Hinton in the paper linked to above.
-This project uses the capsule networks for identifying any given digit and the reconstruct its image.
 
 
 **Differences with the paper:**   
@@ -20,7 +19,7 @@ This code has been compiled on `Colab Notebook` and thus has **Callbacks files**
 
 ## Dataset
 
-Download the traning and test dataset from the link given below:
+Download the training and test dataset from the link given below:
 
 ```
 http://www.cs.toronto.edu/~tijmen/affNIST/
@@ -49,8 +48,8 @@ pip install idx2numpy
 
 **Step 4. Test a pre-trained CapsNet model**
 
-Suppose you have trained a model using the above command, then the trained model will be
-saved in .h5 file, which can be downloed from:
+We have trained a model using the above command, the trained model will be
+saved in `.h5 file`, which can be downloaded from:
 
 for routing iteration=2
 ```
@@ -72,6 +71,8 @@ Losses and accuracies on Test set only for routing iteration=3
 
 ![](cap-master/training.png)
 ![](cap-master/loss.png)
+
+The data for the above graph is save in CSV_data folder.
 
 
 #### Training Speed
