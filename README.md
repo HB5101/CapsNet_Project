@@ -9,7 +9,6 @@ This repository contains code to the section(4) which closely simulate those run
 **Differences with the paper:**   
 1. We only report the test errors after `50 epochs` training. In the paper they trained for `1250 epochs` according to Figure A.1
 2. We only experimented routing iteration 2 and 3 in our code but paper did on 2,3,5,7 and 10
-3.  We use 0.0005xMSE as the reconstruction loss as 0.0005 is the coefficient for the loss. But decoder loss is calculated only as MSE.
 
 ## Warning
 
