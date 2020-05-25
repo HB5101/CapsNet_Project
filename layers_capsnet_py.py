@@ -86,10 +86,11 @@ class DigiCap(layers.Layer):
             c = tf.nn.softmax(b, axis=1)        #c is coupling coefficient
 
             # outputs.shape=[None, num_capsule, dim_capsule]
-            outputs = squash(K.batch_dot(c, inputs_hat, [2, 2]))  # [None, 10, 16]
+            bdot=K.batch_dot(c, inputs_hat, [2, 2])
+            output = squash(bdot)  # [None, 10, 16]
 
             if i < self.routings - 1:
-                b += K.batch_dot(outputs, inputs_hat, [2, 3])
+                b += K.batch_dot(output, inputs_hat, [2, 3])
 
-        return outputs
+        return output
 
