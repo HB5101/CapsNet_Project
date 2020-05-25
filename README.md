@@ -15,7 +15,9 @@ This project uses the capsule networks for identifying any given digit and the r
 ## Warning
 
 Please use Keras==2.2.4 with TensorFlow==1.15.0 backend, or the `K.batch_dot` function may not work correctly.
+
 This code has been compiled on `Colab Notebook` and thus as **Callbacks files** accordingly to save the model, weights and results. If you dont want to save these just comment out the lines corresponding to `ModelCheckpoint` and `CSVLogger`
+
 **Step 1. Clone this repository to local.**
 ```
 https://github.com/HB5101/CapsNet_Project.git
