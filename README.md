@@ -39,17 +39,14 @@ pip install tensorflow==1.15.0
 pip install keras==2.2.4
 ```
 
-**Step 3.
-**  
-
 To access `idx3-ubyte` file as numpy array:
 ```
 pip install idx2numpy
 ```
 
-**Step 4. Test a pre-trained CapsNet model**
+## Trained Weights and biases 
 
-We have trained a model using the above command, the trained model will be
+We have trained a model using the above command, the trained model is
 saved in `.h5 file`, which can be downloaded from:
 
 for routing iteration=2
