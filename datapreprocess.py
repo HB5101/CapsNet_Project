@@ -57,7 +57,7 @@ for i in range(len(length)):
     per=(length[i][0]/sum(length)[0])*100
     print("% of the total data: "+str(i)+" ==> "+str(per)+" %")
     
-#data between 0-1
+#data normalization
 x_train=x_train/255
 x_test=x_test/255
 
