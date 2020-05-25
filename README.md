@@ -75,4 +75,5 @@ Digits at left-side are real images from MNIST and digits at right-side are corr
 converges to the same range.
 2. While, training with routing iterations 2 and 3, we observed that with 2 routings, loss was initially high which drastically dropped just after few initial epochs, whereas when number of routings was increased to 3, model started with low loss which eventually decrease slowly. 
 3. In general more routing iterations increases the network capacity and tends to overfit to the training dataset 
+4. The paper itself is not very detailed and hence it leaves some open questions about specifics of the network implementation that are as of today still unanswered because the authors did not provide their code.
 
