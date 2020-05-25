@@ -30,7 +30,7 @@ y_test = to_categorical(Y_test.astype('float32'))     #y_test.shape=(10000, 10)
 
 x_train = X_train_img.reshape(-1, 28, 28, 1).astype('float32')        #x_train.shape=(60000, 28, 28, 1)
 
-#EDA of training dataset:
+#EDA of training dataset: 
 
 length=np.zeros((10,1))
 kj=[]
