@@ -42,9 +42,18 @@ pip install idx2numpy
 **Step 4. Test a pre-trained CapsNet model**
 
 Suppose you have trained a model using the above command, then the trained model will be
-saved to `result/trained_model.h5`.
+saved in .h5 file, which can be downloed from:
+
+for routing iteration=2
+```
+https://drive.google.com/file/d/1l2oiNhAeWxEKE4MlTwaL3oC3LShNy9g9/view
+```
+for routing iteration=3
+```
+https://drive.google.com/file/d/1pLiw2Boeedmbx9fe631dgBfkn9W_128c/view
+```
 The testing data is same as the validation data. It will be easy to test on new data, just change the code as you want.
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 ## Results
 
